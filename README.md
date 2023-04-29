@@ -78,8 +78,6 @@ Tabaco V2 is a discord multipurpose tool made for educational use only
 
 📘for security reassons we do not promote hacking or stealing accounts or anything againts Discords TOS this is for educational use only📘
 
-![Picture_21](https://user-images.githubusercontent.com/111347467/230570995-c0c534b5-900b-4711-bccf-e7919762d09c.png)
-
 
 
 
