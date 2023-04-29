@@ -72,7 +72,7 @@ If you are on mac or linux
 Tabaco V2 is a discord multipurpose tool made for educational use only 
 
 
-Contact at https://discord.gg/psYB36Q6Uq
+
 
 Do no join with new accounts you will be banned/kicked
 
@@ -82,8 +82,7 @@ for security reassons
 
 
 
-And Our Website
-https://goobgub.odoo.com/
+
 
 
 ![output-onlinepngtools_1-modified_21](https://user-images.githubusercontent.com/111347467/230570471-41fb684f-c4b4-4ff4-b713-0072d3a841d3.png)
