@@ -90,7 +90,13 @@ for security reassons
 
 
 
-Dear Skids 
+Dear Skids
+
+i am a new up and coming programmer take it easy on me
+
+made bye GPT 3 ⬇
+
+
 
 knowing that you have been attempting to take credit for the code that I have worked tirelessly to develop. It is disheartening to see that all of my hard work and dedication has been disregarded in this way.
 
