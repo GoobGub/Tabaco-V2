@@ -1,5 +1,7 @@
 @echo off
 
+pip install --upgrade pip
+
 setlocal
 
 set PYTHON38_URL=https://www.python.org/ftp/python/3.8.12/python-3.8.12-amd64.exe
