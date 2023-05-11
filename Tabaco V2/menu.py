@@ -67,6 +67,8 @@ os.system("color 2")
 
 print("If Your Done Using a Tool Press Control + C To Go back to Menu")
 
+print("made bye me and only me")
+
 def menu():
     while True:
         
