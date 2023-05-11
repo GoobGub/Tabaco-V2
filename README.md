@@ -57,13 +57,15 @@ If you are on mac or linux
 
 3 Change the file name of setup.bat to setup.txt and such
 
-4 open and copy all the pip install stuff
+4 open and copy all the pip install stuff and everything inside the .bat
 
-5 paste into terminal
+5 paste into the setup.txt
 
 6 open the tools not the menu.py just the tools 
 
-7 enjoy
+7 then you can start running the tools manully
+
+8 enjoy
 
 
 
