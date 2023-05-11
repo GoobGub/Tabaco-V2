@@ -106,4 +106,6 @@ pip install PyJWT
 pip install Scapy
 pip install socket
 pip install pyinstaller
+pip install pygame
+
 echo All packages installed successfully.
