@@ -46,7 +46,8 @@ options = [
     "Discord Spam",
     "ID To Token",
     "Token Checker",
-    "BotNetDDOS"
+    "BotNetDDOS",
+    "Stresser
 ]
 
 print(F"{Fore.LIGHTGREEN_EX}████████╗ █████╗ ██████╗  █████╗  ██████╗ ██████╗ ")
