@@ -47,7 +47,7 @@ options = [
     "ID To Token",
     "Token Checker",
     "BotNetDDOS",
-    "Stresser
+    "Stresser"
 ]
 
 print(F"{Fore.LIGHTGREEN_EX}████████╗ █████╗ ██████╗  █████╗  ██████╗ ██████╗ ")
@@ -117,6 +117,8 @@ def menu():
                 subprocess.call(["python", "Tools/Token Checker.py"])
             elif script_name ==  "BotNetDDOS":
                 subprocess.call(["python", "Tools/BotNetDDOS.py"])
+            elif script_name ==  "Stresser":
+                subprocess.call(["python", "Tools/Stresser.py"])
                 
         except:
             print
