@@ -1,4 +1,6 @@
-color 2
+@echo off
+
+
 
 echo "
 Welcome Discord Hacker! Everything you do with this tool will be from your free will. We're not responsible for anything that happens to you.
@@ -16,13 +18,4 @@ if /i "%answer%"=="Y" (
 
 timeout /t 5 /nobreak
 
-if exist ".\setup_complete\" (
-  echo "Setup already completed. Proceeding to menu."
-) else (
-  echo "Running setup..."
-  call setup.bat
-  md .\setup_complete\
-)
-
 python menu.py
-
