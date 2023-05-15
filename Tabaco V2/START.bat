@@ -1,10 +1,7 @@
 @echo off
 
+echo "Welcome Discord Hacker! Everything you do with this tool will be from your free will. We're not responsible for anything that happens to you"
 
-
-echo "
-Welcome Discord Hacker! Everything you do with this tool will be from your free will. We're not responsible for anything that happens to you.
-"
 
 set /p answer="Do you want to continue (Y/N)? "
 
