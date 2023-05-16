@@ -74,10 +74,10 @@ def main():
     print("-----------------------------")
     print()
 
-    ip = input("Enter the IP to Stress: ")
-    port = input("Enter port (press Enter for all ports): ")
-    force = input("Bytes per packet (press Enter for 1250): ")
-    threads = input("Threads (press Enter for 35): ")
+    ip = input("Enter the IP to hit: ")
+    port = input("Enter port (Or Enter for Defult): ")
+    force = input("Bytes per packet (Or Enter For Defult): ")
+    threads = input("Threads (Or Enter For Defult): ")
 
     if force == '':
         force = 1250
@@ -111,7 +111,7 @@ def main():
             sleep(1000000)
     except KeyboardInterrupt:
         brute.stop()
-        print(f"Attack stopped. {ip} was Brutalized with {round(brute.total, 1)} Gb.\n")
+        print(f"Attack stopped. {ip} was Hit with {round(brute.total, 1)} Gb.\n")
 
 if __name__ == '__main__':
     main()
