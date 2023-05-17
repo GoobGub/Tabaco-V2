@@ -17,7 +17,7 @@ def join_server(token, server_url):
 
     client.run(token)
 
-token_file = "tools/tokens.txt"  # Path to tokens.txt
+token_file = "Tools/WORKED TOKENS.txt"  # Path to tokens.txt
 server_url = input("Enter the Discord server URL: ")
 
 with open(token_file, "r") as file:
