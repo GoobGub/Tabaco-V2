@@ -26,13 +26,14 @@ if opcion=='1':
     cantidad = input("\nAmount to generate: ")
     while int(count)<int(cantidad):
         Generated = "NT"+random.choice(string.ascii_letters)+''.join(random.choice(string.ascii_letters + string.digits) for _ in range(21))+"."+random.choice(string.ascii_letters).upper()+''.join(random.choice(string.ascii_letters + string.digits) for _ in range(5))+"."+''.join(random.choice(string.ascii_letters + string.digits) for _ in range(27))
-        f= open(current_path +"/"+str("Generated")+str("")+".txt","a")
+        f = open(current_path + "/Tokens.txt", "a")
         f.write(Generated+"\n")
+        f.close()
         print(Fore.GREEN +" "+ Fore.RESET + Generated)
-        count+=1
-        if int(count)==int(cantidad):
+        count += 1
+        if int(count) == int(cantidad):
             print("\n" + Fore.CYAN +Fore.GREEN +"Tokens generated successfully!")
-            print(Fore.WHITE +Fore.GREEN +"Tokens saved in Generated.txt")
+            print(Fore.WHITE +Fore.GREEN +"Tokens saved in Tokens.txt")
             input(Fore.GREEN +Fore.GREEN +"\nPress enter to exit")
             os.system("cls")
             time.sleep(2)
