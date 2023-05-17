@@ -1,26 +1,28 @@
 import os
 import discord
-import pystyle
 import time
-from pystyle import Add, Colors, Colorate, Center, Write
 
-banner1 = (f"""""")
-text = "Server Joiner\n   "
-x = Add.Add(banner1, text, 3)
-print(Colorate.Horizontal(Colors.blue_to_purple, str(x), 1))
+def join_server(token, server_url):
+    client = discord.Client()
 
-b = Colorate.Horizontal(Colors.green_to_white, "[+] ", 1)
-c = Colorate.Horizontal(Colors.blue_to_red, "[Input] > ", 1)
+    @client.event
+    async def on_ready():
+        try:
+            await client.accept_invite(server_url)
+            print(f"Joined server with token: {token}")
+        except discord.errors.HTTPException:
+            print(f"Failed to join server with token: {token}")
 
-print(''); print('')
-Write.Print(Center.XCenter("Input your Discord Server Url"), Colors.red_to_purple, interval=0.0025)
-print('')
-discordurl = input(Center.XCenter(str(c)))
+        await client.logout()
 
-tokens = 0
-token_list = "./assets/tokens.txt"  # Updated path to tokens.txt
+    client.run(token)
 
-while True:
-    tokens = tokens + 1
-    print(str(b) + "| New token joined | " + str(tokens) + " joins |")
-    time.sleep(0.3)
+token_file = "tools/tokens.txt"  # Path to tokens.txt
+server_url = input("Enter the Discord server URL: ")
+
+with open(token_file, "r") as file:
+    tokens = file.read().splitlines()
+
+for token in tokens:
+    join_server(token, server_url)
+    time.sleep(1)  # Add a delay between joining with different tokens
