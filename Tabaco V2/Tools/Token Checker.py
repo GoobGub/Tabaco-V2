@@ -8,13 +8,13 @@ import os
 os.system("color 2")
 
 if sys.version_info < (3, 7):
-    exit(f"Python version ({sys.version}) dont support asyncio syntax used in this script.\n\nPlease update to Python 3.7>=.")
+    exit(f"Python version ({sys.version}) doesn't support asyncio syntax used in this script.\n\nPlease update to Python 3.7 or higher.")
 
 import asyncio
 
-q = "\033[96m[?]\033[0m "
-x = "\033[91m[X]\033[0m "
-i = "\033[96m[!]\033[0m "
+q = "\033[92m[?]\033[0m "
+x = "\033[92m[X]\033[0m "
+i = "\033[92m[!]\033[0m "
 
 def cls() -> None:
     if sys.platform in ('win32'): 
@@ -93,25 +93,8 @@ if __name__ == '__main__':
 
     if not path.exists(q2):
         while True:
-            q2 = input("{}Please put some valid file!: ".format(x))
+            q2 = input("{}Please provide a valid file path: ".format(x))
             if path.exists(q2):
                 break
 
-    q1 = input("{}Want to save all the worked tokens at a txt file?[Y/N]: ".format(q)).lower()
-
-    if q1 == "y":
-        q3 = "Tools/WORKED TOKENS.txt"
-        if not path.exists(q2):
-            while True:
-                q3 = input("{}Please put some valid file!: ".format(x))
-                if path.exists(q2):
-                    break
-
-    token_cheker = TokenCheker()
-
-    asyncio.run(token_cheker._run())
-
-    if q1 == "y":
-        with open(q3, 'w+') as f:
-            for working in token_cheker.accounts_working:
-                f.write("{}\n".format(working))
+    q1 = input("{}Want to save
