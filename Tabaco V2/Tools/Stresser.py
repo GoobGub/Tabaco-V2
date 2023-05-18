@@ -10,8 +10,7 @@ os.system('cls')
 print("\033[1;32m")
 
 connect = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-print("Monkey")
-  
+print("WARNING USE AT UR OWN RISK THIS IS CODE SENDING PACKETS FROM UR COMPUTER IT WILL LAG U ")
 
 try:
     size = int(input("Size> "))
