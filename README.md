@@ -1,7 +1,7 @@
 <div align="center">
   <h1>🟢Tabaco V2 Discord Multitool🟢</h1>
         <p>🟢Discord Tool made bye a rookie python scripter🟢<p>
-  <p>✏️For Educational Purpose Only✏️</p>
+  <p>✏️For Educational Purpose Only + I Dont Like hacking i just got board and made a tool i do this for fun i dont take it seriously✏️</p>
   <img src="https://img.shields.io/badge/dynamic/json?color=limegreen&labelColor=black&label=Downloads&query=$[0].assets[0].download_count&suffix=%20total&url=https://api.github.com/repos/GoobGub/Tabaco-V2-Discord-Multitool/releases" alt="Downloads" style="max-width: 100%; font-size: 24px;">
 </div>
 
