@@ -12,7 +12,7 @@ class Console():
     def ui(self):
         os.system(f'' if os.name == "nt" else "clear")
         print(center(f"""\n\n
-█""").replace('█', Fore.CYAN+"█"+Fore.RESET).replace('~', Fore.CYAN+"~"+Fore.RESET).replace('-', Fore.CYAN+"-"+Fore.RESET))
+█""").replace('█', Fore.GREEN+"█"+Fore.RESET).replace('~', Fore.GREEN+"~"+Fore.RESET).replace('-', Fore.GREEN+"-"+Fore.RESET))
 
     def printer(self, color, status, code):
         threading.Lock().acquire()
@@ -60,9 +60,7 @@ class Worker():
             elif req.status_code == 404:
                 Console().printer(Fore.LIGHTRED_EX, "Invalid", self.code)
             elif req.status_code == 429:
-                # rate = (int(req.json()['retry_after']) / 1000) + 1
                 Console().printer(Fore.LIGHTBLUE_EX, "RTlimit", self.code)
-                # time.sleep(rate)
             else:
                 Console().printer(Fore.LIGHTYELLOW_EX, " Retry ", self.code)
                   
@@ -73,12 +71,11 @@ class Worker():
             os.system('pause >nul')
             exit()
         except:
-            # Console().printer(Fore.LIGHTRED_EX, "Invalid", self.code)
             Console().printer(Fore.LIGHTYELLOW_EX, " Retry ", self.code)
         
 if __name__ == "__main__":
     Console().ui()
-    print(" "+Fore.CYAN + str(Console().proxies_count()) + Fore.RESET + " Total proxies loaded...\n\n")
+    print(" "+Fore.GREEN + str(Console().proxies_count()) + Fore.RESET + " Total proxies loaded...\n\n")
     DNG = Worker()
     
     while True:
