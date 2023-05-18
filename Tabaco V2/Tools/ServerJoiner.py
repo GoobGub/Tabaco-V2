@@ -28,4 +28,4 @@ else:
     for i in range(num_tokens):
         tokens += 1
         print(str(b) + "| New token joined | " + str(tokens) + " joins |")
-        time.sleep(0.01
+        time.sleep(0.01)
