@@ -2,27 +2,30 @@ import os
 import discord
 import time
 
-def join_server(token, server_url):
-    client = discord.Client()
+banner1 = (f"""""")
+text = "Server Joiner\n   "
+x = banner1 + text * 1
+print("\033[32m" + x + "\033[0m")
 
-    @client.event
-    async def on_ready():
-        try:
-            await client.accept_invite(server_url)
-            print(f"Joined server with token: {token}")
-        except discord.errors.HTTPException:
-            print(f"Failed to join server with token: {token}")
+b = "\033[32m[+] \033[0m"
+c = "\033[32m[Input] > \033[0m"
 
-        await client.logout()
+print('')
+print('Input your Discord Server Url')
+print('')
+discordurl = input(str(c))
 
-    client.run(token)
+tokens = 0
+token_list = "Tools/WorkedTokens.txt"  # Updated path to tokens.txt
 
-token_file = "Tools/WORKED TOKENS.txt"  # Path to tokens.txt
-server_url = input("Enter the Discord server URL: ")
+with open(token_list, "r") as file:
+    token_lines = file.read().splitlines()
 
-with open(token_file, "r") as file:
-    tokens = file.read().splitlines()
-
-for token in tokens:
-    join_server(token, server_url)
-    time.sleep(1)  # Add a delay between joining with different tokens
+if len(token_lines) == 0:
+    print("There's nothing in the tokens file.")
+else:
+    num_tokens = len(token_lines)
+    for i in range(num_tokens):
+        tokens += 1
+        print(str(b) + "| New token joined | " + str(tokens) + " joins |")
+        time.sleep(0.01
