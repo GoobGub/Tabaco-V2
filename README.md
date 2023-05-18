@@ -95,20 +95,12 @@ Heres a Video On Tabaco !
 https://www.youtube.com/watch?v=gtRdgsgn8fg&t=31s
 
 
-Dear Skids
+Okay, so please don't hate me or anything for creating a tool. Just wanna say upfront, I ain't trying to challenge anyone, and let's get this straight—I'm not some big hacker. Seriously, don't come at me because I've had people telling me it's not that hard or that I'm not powerful. Like, come on, I'm not claiming to be some super powerful genius here. I'm just a regular person, harmless and all. I simply wanted to make a tool because it's something I've always been interested in.
 
-i am a new up and coming programmer take it easy on me
+And you know what? On top of that, I've actually received hack threats from some folks. Can you believe it? Talk about feeling guilty, right? It's messed up and honestly pretty scary that my harmless little tool has triggered such extreme reactions. To those who've made these threats, seriously, take a moment to reflect. Think about the impact your actions have on others. Let's not resort to threats or intimidation. Let's support and uplift each other instead.
 
-made bye GPT 3 ⬇
+I'm sharing all this to let you know how these things make me feel. It's important for those who've made me feel targeted or threatened to understand the emotional toll their words and actions can have. We should be building a community based on understanding, empathy, and collaboration. Somewhere we can freely express our interests and learn from one another without fear or hostility
 
+im more annoyed then thretened
 
-
-knowing that you have been attempting to take credit for the code that I have worked tirelessly to develop. It is disheartening to see that all of my hard work and dedication has been disregarded in this way.
-
-Please understand that the code I have created is a product of my passion, my skills, and my time. It is the result of countless hours of research, experimentation, and trial and error. Each line of code represents a piece of my creativity, my problem-solving abilities, and my vision for what this code can accomplish.
-
-It is not fair, nor is it just, for you to attempt to claim ownership of this code. By doing so, you are not only disrespecting me and my hard work, but you are also committing an act of intellectual property theft.
-
-I implore you to reconsider your actions and recognize the importance of integrity, honesty, and respect in the development of code. Instead of trying to take credit for someone else's work, I encourage you to use your skills and creativity to create something unique and valuable.
-
-Remember, true success is not measured by how much credit we receive, but rather by the positive impact we make on the world around us. Let us work together with integrity, respect, and collaboration to create a brighter future for ourselves and our community.
+and i aint tryna be cool or anything for making a tool
