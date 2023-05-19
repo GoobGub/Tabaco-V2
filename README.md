@@ -95,12 +95,3 @@ Heres a Video On Tabaco !
 https://www.youtube.com/watch?v=gtRdgsgn8fg&t=31s
 
 
-Okay, so please don't hate me or anything for creating a tool. Just wanna say upfront, I ain't trying to challenge anyone, and let's get this straight—I'm not some big hacker. Seriously, don't come at me because I've had people telling me it's not that hard or that I'm not powerful. Like, come on, I'm not claiming to be some super powerful genius here. I'm just a regular person, harmless and all. I simply wanted to make a tool because it's something I've always been interested in.
-
-And you know what? On top of that, I've actually received hack threats from some folks. Can you believe it? Talk about feeling guilty, right? It's messed up and honestly pretty scary that my harmless little tool has triggered such extreme reactions. To those who've made these threats, seriously, take a moment to reflect. Think about the impact your actions have on others. Let's not resort to threats or intimidation. Let's support and uplift each other instead.
-
-I'm sharing all this to let you know how these things make me feel. It's important for those who've made me feel targeted or threatened to understand the emotional toll their words and actions can have. We should be building a community based on understanding, empathy, and collaboration. Somewhere we can freely express our interests and learn from one another without fear or hostility
-
-im more annoyed then thretened
-
-and i aint tryna be cool or anything for making a tool
