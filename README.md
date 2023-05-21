@@ -7,6 +7,8 @@
 
 
 
+🚧EVERYONE I HAVE DISCONTINUED MAKING THIS TOOL DUE TO THE FACT I CANT BE ASKED DO WHAT U WANT WITH IT STEAL MY CODE IDC🚧
+
 ![output-onlinegiftools](https://user-images.githubusercontent.com/129594730/231024879-abf1939a-03ad-4dae-ac00-da2e97eb9528.gif)
 
 
