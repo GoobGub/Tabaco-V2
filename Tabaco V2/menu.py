@@ -62,7 +62,7 @@ print(F"{Fore.LIGHTGREEN_EX}   ██║   ██║  ██║█████�
 time.sleep(0.1)
 print(F"{Fore.GREEN}   ╚═╝   ╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ")
 time.sleep(0.1)
-print(F"{Fore.LIGHTGREEN_EX}Made by MFSshadow!")
+print(F"{Fore.LIGHTGREEN_EX}HAWK TAWW!")
 time.sleep(2)                                     
 
 os.system("color 2")
