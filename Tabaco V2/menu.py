@@ -63,6 +63,7 @@ time.sleep(0.1)
 print(F"{Fore.GREEN}   ╚═╝   ╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ")
 time.sleep(0.1)
 print(F"{Fore.LIGHTGREEN_EX}HAWK TAWW!")
+print(F"{Fore.RED}SKIBIDI TOLIET")
 time.sleep(2)                                     
 
 os.system("color 2")
