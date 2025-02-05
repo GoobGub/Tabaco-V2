@@ -85,44 +85,7 @@ def menu():
         # Run the chosen script, if it exists
         try:
             script_name = options[int(choice)-1]
-            if script_name == "TokenBruteforce":
-                subprocess.call(["python", "Tools/TokenBruteforce.py"])
-            elif script_name == "WebhookSpam":
-                subprocess.call(["python", "Tools/WebhookSpam.py"])
-            elif script_name == "NitroCheck":
-                subprocess.call(["python", "Tools/NitroCheck.py"])
-            elif script_name == "Vanity Checker":
-                subprocess.call(["python", "Tools/Vanity Checker.py"])
-            elif script_name == "Gmail BruteForce":
-                subprocess.call(["python", "Tools/Gmail BruteForce.py"])
-            elif script_name == "Server Nuker":
-                subprocess.call(["python", "Tools/Server Nuker.py"])
-            elif script_name == "Email Spam":
-                subprocess.call(["python", "Tools/Email Spam.py"])
-            elif script_name ==  "ImageLogger":
-                subprocess.call(["python", "Tools/ImageLogger.py"])
-            elif script_name ==  "TokenLogger":
-                subprocess.call(["python", "Tools/TokenLogger.py"])
-            elif script_name ==  "DDOS":
-                subprocess.call(["python", "Tools/DDOS.py"])
-            elif script_name ==  "NitroGen":
-                subprocess.call(["python", "Tools/NitroGen.py"])
-            elif script_name ==  "ServerJoiner":
-                subprocess.call(["python", "Tools/ServerJoiner.py"])
-            elif script_name ==  "TokenGen":
-                subprocess.call(["python", "Tools/TokenGen.py"])
-            elif script_name ==  "Discord Spam":
-                subprocess.call(["python", "Tools/Discord Spam.py"])
-            elif script_name ==  "ID To Token":
-                subprocess.call(["python", "Tools/ID To Token.py"])
-            elif script_name ==  "Token Checker":
-                subprocess.call(["python", "Tools/Token Checker.py"])
-            elif script_name ==  "BotNetDDOS":
-                subprocess.call(["python", "Tools/BotNetDDOS.py"])
-            elif script_name ==  "Stresser":
-                subprocess.call(["python", "Tools/Stresser.py"])
-            elif script_name ==  "IP Pinger":
-                subprocess.call(["python", "Tools/IP Pinger.py"])
+            subprocess.call(["python", f"Tools/{script_name}.py"])
                 
         except:
             print
